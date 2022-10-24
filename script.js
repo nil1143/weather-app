@@ -4,7 +4,7 @@ const cityName = document.querySelector('.city-name')
 const warning = document.querySelector('.warning')
 const photo = document.querySelector('.photo')
 const weather = document.querySelector('.weather')
-const temperature = document.querySelector('.te mperature')
+const temperature = document.querySelector('.temperature')
 const humidity = document.querySelector('.humidity')
 const API_LINK = 'https://api.openweathermap.org/data/2.5/weather?q='
 const API_KEY = '&appid=74a9d09f8bec0f7520a6fee3433d32c6'
