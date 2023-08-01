@@ -6,31 +6,40 @@
 
 .box {
     display: flex;
-    
+    margin: 5px;
     align-items: center;
-    height: 600px;
+    height: 500px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     background-color: #333;
     font-size: 15px;
-    width: 400px
+    width: fit;
+    justify-content: center;
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
     padding: 5px;
-    letter-spacing: 7px;
+    letter-spacing: 7px; 
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+h3 {
+    font-weight: 400;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 input {
     font-size: 12px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin-top: 10px;
     background: none;
     border: none;
     color: rgb(222, 220, 220);
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;    
 }
 
 input::placeholder {
@@ -39,7 +48,7 @@ input::placeholder {
 }
 
 button {
-    padding: 10px;
+    padding: 7px;
     margin-left: 20px;
     color: #fff;
     font-weight: bold;
@@ -58,34 +67,37 @@ button:hover {
 
 .wrapper {
     margin-left: 10px;
-    width: 500px;
-    padding: 20px 40px;
-    background: linear-gradient(220deg, #e6dddd 7.18%, #26bb5f 100%);
+    width: 400px;
+    padding: 20px 20px;
+    background: linear-gradient(290deg, #345235 7.18%, #26bb5f 70%);
     /* background: #2ff179; */
-    border: 2px solid rgb(190, 190, 190);
+    border: none;
     border-radius: 25px;
     justify-content: center;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px 0px;
 }
 
 .top {
-    height: 260px;
+    height: 270px;
 }
 
 .bottom {
-    height: 140px;
+    margin-top: 10px;
+    height: 160px;
 }
 
 .main-info {
     display: flex;
-    justify-content: space-around;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 160px;
 }
 
 .city-name {
     font-size: 30px;
-    padding: 10px;
-   
+    padding: 10px;  
 }
 
 .headings,
@@ -109,17 +121,19 @@ button:hover {
 }
 
 .weather-info {
-    height: 100%;
-    font-size: 26px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 22px;
 }
 
 .photo {
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
 	object-fit: contain;
 }
 
 .warning {
+    font-weight: 900;
     margin-top: 10px;
     font-size: 14px;
     color: tomato;

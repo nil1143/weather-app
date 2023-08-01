@@ -16,19 +16,12 @@ const getWeather = () => {
 
 	axios.get(URL).then(res => {
 
-		console.log(res.data)
+		console.log(res.data.main.temp)
 		const status = Object.assign({}, ...res.data.weather)
-		// console.log(status.id);
-		// const temp = res.data.main.temp
-		// const hum = res.data.main.humidity
-		// temperature.textContent =  Math.floor(temp) + 'C'
-		// humidity.textContent = hum + '%'
-		// 
-		// CODE BELOW IS THE SAME AS QUOTE ABOVE BUT SIMPLIER
-		// 
-		temperature.textContent = Math.floor(res.data.main.temp) + '℃'
+
+		temperature.textContent = Math.floor(res.data.main.temp) + ' ℃'
 		cityName.textContent = res.data.name
-		humidity.textContent = res.data.main.humidity + '%'
+		humidity.textContent = res.data.main.humidity + ' %'
 		weather.textContent = status.main
 		warning.textContent = ''
 		input.value = ''
