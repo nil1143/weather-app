@@ -6,24 +6,25 @@
 
 .box {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     height: 600px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     background-color: #333;
-    font-size: 20px;
+    font-size: 15px;
+    width: 400px
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     letter-spacing: 7px;
 }
 
 input {
-    font-size: 16px;
+    font-size: 12px;
     padding: 5px 10px;
     margin-top: 10px;
     background: none;
@@ -57,7 +58,7 @@ button:hover {
 
 .wrapper {
     margin-left: 10px;
-    width: 800px;
+    width: 500px;
     padding: 20px 40px;
     background: linear-gradient(220deg, #e6dddd 7.18%, #26bb5f 100%);
     /* background: #2ff179; */
