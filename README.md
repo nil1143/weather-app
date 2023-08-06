@@ -1,5 +1,7 @@
 # weatherApp
 
+<img class="m-5 shadow-black shadow-md " src="/img/weather-image.png">
+
 This is web application to show the current weather forecast. 
 Easy to use , one-click app with image changing attribute, depends on the weather status.
 
