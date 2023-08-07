@@ -5,15 +5,15 @@
 This is web application to show the current weather forecast. 
 Easy to use , one-click app with image changing attribute, depends on the weather status.
 
-<h2>API fetched from https://openweathermap.org/api</h2>
+<h3>API fetched from https://openweathermap.org/api</h3>
 
-Technology used:
-<h2>-HTML5</h2>
-<h2>-CSS3</h2>
-<h2>-JS</h2>
-<h2>-API</h2>
+<h2>Technology used:</h2>
+<h3>-HTML5</h3>
+<h3>-CSS3</h3>
+<h3>-JS</h3>
+<h3>-API</h3>
 
-
+<br>
 
 Live here: <a>https://nil1143.github.io/weather-app/</a>
 
